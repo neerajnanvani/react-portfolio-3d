@@ -21,16 +21,22 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import ceoitbox from "./company/ceoitbox.png";
+import chegg from "./company/chegg.png";
+import vidyamantra from "./company/vidyamantra.webp";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import vue from "./tech/vuejs.png"
+import canva from "./tech/canva.png"
+import moqup from "./tech/moqups.webp"
+
+import vueTheme from "./vue-dark-theme.png";
+import portfolio from "./portfolio-responsive.png";
+import animeSearch from "./anime-search.png";
 
 export {
+  vue,
+  canva,
+  moqup,
   logo,
   backend,
   creator,
@@ -52,11 +58,10 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  ceoitbox,
+  chegg,
+  vidyamantra,
+  vueTheme,
+  portfolio,
+  animeSearch
 };
