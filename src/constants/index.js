@@ -19,7 +19,8 @@ import {
   moqup,
   animeSearch,
   portfolio,
-  vueTheme
+  vueTheme,
+  reactjs
 } from "../assets";
 
 export const navLinks = [
@@ -78,6 +79,10 @@ const technologies = [
     icon: typescript,
   },
   {
+    name: "React.js",
+    icon: reactjs,
+  },
+  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -121,7 +126,7 @@ const experiences = [
     company_name: "Chegg",
     icon: chegg,
     iconBg: "#E6DEDD",
-    date: "April 2021 - Present",
+    date: "April 2021 - April 2023",
     points: [
       "Helped students with homework and assignments, clarified computer science concepts, provided feedback and encouragement to promote growth in the field.",
       "Provide high-quality answers and solutions to complex computer science questions.",
@@ -133,7 +138,7 @@ const experiences = [
     company_name: "Vidyamantra Edu Systems",
     icon: vidyamantra,
     iconBg: "#383E56",
-    date: "Dec 2021 - Present",
+    date: "Dec 2021 - May 2023",
     points: [
       "Develop and maintain clean, reusable code and components using Vue.js and related libraries such as Vuex, Pinia, Vue Router, and Nuxt.js.",
       "Manage code repositories using GitHub, including version control, code reviews, and pull requests.",
